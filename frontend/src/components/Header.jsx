@@ -28,7 +28,7 @@ function Header() {
   ];
 
   return (
-    <header className="py-3 shadow bg-gray-600 top-0 sticky">
+    <header className="py-3 shadow-xl bg-gray-600 top-0 sticky">
       <div className="w-full max-w-7xl mx-auto px-4">
         <nav className="flex mx-4">
           <Link to="/" className="flex items-center space-x-3">
@@ -52,7 +52,7 @@ function Header() {
             )}
             {isLoggedIn && (
               <li>
-                <button className="inline-block px-4 py-2 duration-200 hover:bg-gray-900 rounded-full font-medium text-center cursor-pointer">
+                <button className="inline-block px-4 py-2 duration-200 hover:bg-red-800 rounded-full font-medium text-center cursor-pointer">
                   Logout
                 </button>
               </li>
